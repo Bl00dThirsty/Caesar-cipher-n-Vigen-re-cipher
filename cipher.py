@@ -1,6 +1,5 @@
 import argparse
-#python cipher.py -m caesar -t "texte à chiffrer" -s 3
-#python cipher.py -m vigenere -t "texte à chiffrer" -k "clé"
+
 def caesar_cipher(text, shift):
     result = ""
     for char in text:
